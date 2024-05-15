@@ -41,6 +41,6 @@ describe("JokeListOptions.vue", () => {
       expect(punchlineWrapper.text()).toBe(mockJokes[index].punchline);
     });
 
-    jest.restoreAllMocks(); // Restaurar todos los mocks después de la prueba
+    jest.restoreAllMocks();
   });
 });
